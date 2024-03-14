@@ -1,0 +1,72 @@
+# Query: vetor
+# Flags: RegExp
+
+60 resultados - 4 arquivos
+
+carrinho.html:
+   54:     <img src="aweto.png" id="logo">
+  235:         <a href="carrinho.html" id="ircarrinho"><img src="compra.png"  id="nav-carrinho" class="clique-carro" ></a>
+
+categoria.html:
+     7:     <link rel="shortcut icon" href="aweto.png">
+    71:         <img src="aweto.png" id="logo">
+   254:             <img src="compra.png"  id="nav-carrinho" class="clique-carro" >
+  1027:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1037:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1047:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1057:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1067:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1077:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1087:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1097:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1110:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1120:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1130:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1140:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1150:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1160:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1170:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1180:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1193:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1203:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1213:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1223:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1233:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1243:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1253:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1263:                 <button class="botao-carrinho" id="botao-carrinho" onclick="addProduct('O ego é seu Inimigo', 9.99)"><img src="Vetor/compra.png" id="carrinho-produtos"></button>
+  1450:             <img src="whats.png" class="imagem-redes">
+  1451:             <img src="insta.png" class="imagem-redes">
+  1452:             <img src="face.png" class="imagem-redes">
+  1471:             <img src="lwhats.png" class="logo-redes" id="logo-redes">
+  1472:             <img src="linsta.png" class="logo-redes" id="logo-redes">
+  1473:             <img src="lface.png" class="logo-redes" id="logo-redes">
+
+index.html:
+     7:     <link rel="shortcut icon" href="aweto.png">
+    58:     <img src="aweto.png" id="logo">
+   239:         <a href="carrinho.html" id="ircarrinho"><img src="compra.png"  id="nav-carrinho" class="clique-carro" ></a>
+   883:     <a href="categoria.html"><img src="Vetor/bt3.png" id="imgcatalogo" class="imgcatalogomob"></a>
+   884:     <a href="categoria.html"><img src="Vetor/bt4.png" id="imgcatalogo" class="imgcatalogomob"></a>
+   885:     <a href="categoria.html"><img src="Vetor/bt1.png" id="imgcatalogo" class="imgcatalogomob"></a>
+   886:     <a href="categoria.html"><img src="Vetor/bt2.png" id="imgcatalogo" class="imgcatalogomob"></a>
+   887:     <a href="categoria.html"><img src="Vetor/bt5.png" id="imgcatalogo" class="imgcatalogomob"></a>
+   888:     <a href="categoria.html"><img src="Vetor/bt6.png" id="imgcatalogo" class="imgcatalogomob"></a>
+   889:     <a href="categoria.html"><img src="Vetor/bt1.png" id="imgcatalogo" class="imgcatalogomob"></a>
+   890:     <a href="categoria.html"><img src="Vetor/bt2.png" id="imgcatalogo" class="imgcatalogomob"></a>
+  1616:         <img src="whats.png" class="imagem-redes">
+  1617:         <img src="insta.png" class="imagem-redes">
+  1618:         <img src="face.png" class="imagem-redes">
+  1639:         <img src="lwhats.png" class="logo-redes" id="logo-redes">
+  1640:         <img src="linsta.png" class="logo-redes" id="logo-redes">
+  1641:         <img src="lface.png" class="logo-redes" id="logo-redes">
+
+unico.html:
+   54:     <img src="aweto.png" id="logo">
+  235:         <a href="carrinho.html" id="ircarrinho"><img src="compra.png"  id="nav-carrinho" class="clique-carro" ></a>
+  795:         <img src="whats.png" class="imagem-redes">
+  796:         <img src="insta.png" class="imagem-redes">
+  797:         <img src="face.png" class="imagem-redes">
+  816:         <img src="lwhats.png" class="logo-redes" id="logo-redes">
+  817:         <img src="linsta.png" class="logo-redes" id="logo-redes">
+  818:         <img src="lface.png" class="logo-redes" id="logo-redes">

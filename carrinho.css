@@ -1,0 +1,446 @@
+html,body,.footer{
+    width: 100%;
+    padding: 0;
+    margin:0; 
+    }
+
+/*DESATIVAR PARA DESKTOP*/
+ #nav-icone-menu,.fundo-clase,.fundo-menu,.fundo-lupa,#input-lupa,#listamob,#fechar-busca,.fundo-menu,.caminho-mobile,.fundo-carrinhomob,.clique-carromob,#carrinho-fecharmob{
+    display: none;
+}
+
+
+/*****************************************GERAL********************************************************
+**************************************************************************************************
+**************************************************************************************************/
+
+
+/*CONFIGURAÇÕES DO CORPO E GERAL*/
+body{
+    padding: 0;
+    margin:0; 
+    overflow-x: hidden;
+    width: 100%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    z-index:1 ;
+}
+main{
+    z-index: 0;
+    width: 100%;
+}
+
+
+/*****************************************CABEÇALHO********************************************************
+**************************************************************************************************
+**************************************************************************************************/
+
+
+/*CABEÇALHO*/
+header{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: #0c212d;
+    color: white;
+}
+/*logotipo*/
+#logo{
+    height: 65px;
+    width: 76px;
+}
+/*navegador*/
+nav{
+    display: flex;
+}
+/* configuração do texto do navegador*/
+#texto-nav{
+    margin-left:70px;
+    cursor: pointer;
+}
+#texto-nav:hover{
+    background-color: #02141c;
+    padding: 10px;
+}
+
+/*FRASE PENSADOR*/
+
+
+/*ATIVAÇÃO DAS NAVEGAÇÕES*/
+
+
+
+
+
+
+/*Lupa*/
+
+#listamob{
+    display: none;
+}
+.fundo{
+    display: flex;
+    justify-content:space-around;
+    align-items: normal;
+    position: relative;
+    height:45px;
+    width:350px;
+    overflow: hidden;
+    color:white;
+    transition: .2s;
+    background-color: #02141c;
+    padding: 5px;
+    transform: translateY(2px);
+}
+.fundo:hover{
+    background-color: #02141c;
+    border:1px solid rgba(255, 255, 255, 0.392);
+    color: white;
+}
+/*ativação da lupa*/
+.fundo.abrir{
+    display: flex;
+    justify-content:space-around;
+    align-items: normal;
+    height: 400px;
+    transform:translateY(180px) ;
+}
+/* Configuração da lista de pesquisa*/
+.lupa-pesquisa{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    background-color: #0c212d;
+    transform: translateY(20px) translateX(-30px);
+    border: 2px solid black;
+    width: 280px;
+}
+.dados-lupa{
+    margin: 7px;
+    padding:10px;
+    list-style:none;
+    transform: translateX(-20px);
+    border-bottom: 2px solid #00000069;
+    cursor: pointer;
+    color: white;
+
+}
+.dados-lupa:hover{
+    background-color: #ff9b00;
+    padding:10px;
+}
+.lupa {
+    font-size: 30px;
+    padding:10px;
+    cursor: pointer;
+    transform: translateX(5px) translateY(-8px);
+}
+#input-pesquisa{
+
+    transform: translateY(-10px) translateX(10px);
+    font-size: 22px;
+    color: white;
+}
+.fechar{
+    font-size: 30px;
+    transform: translateX(-70px) translateY(10px);
+    cursor: pointer;
+ 
+}
+.pesquisa , input{
+    background-color: transparent;
+    border:0;
+    outline: 0;
+    font-size: 17px;
+    color:white;
+
+}
+.pesquisa{
+    transform: translateY(20px);
+    height: 30px;
+}
+
+
+
+
+
+/*Carrinho de Compras*/
+
+.fundo-carrinho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 85px;
+    height: 55px;
+    padding: 15px;
+    overflow:hidden;
+    transition: .2s; 
+}
+#nav-carrinho{
+    height: 45px;
+    width: 40px;
+    color: white;
+    transition: .2s;
+    cursor: pointer;
+    padding: 2px;
+    transform: translateY(8px);
+}
+
+
+/*Carrinho de Compras*/
+
+.fundo-carrinho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 85px;
+    height: 55px;
+    padding: 15px;
+    overflow:hidden;
+    transition: .2s; 
+}
+#nav-carrinho{
+    height: 45px;
+    width: 40px;
+    color: white;
+    transition: .2s;
+    cursor: pointer;
+    padding: 2px;
+    transform: translateY(8px);
+}
+
+
+
+
+.fundocart{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+}
+li{
+    list-style: none;
+}
+button{
+    background-color: #0794d3;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 57%;
+    transform: translateX(310px) translateY(-590px);
+    background-color: white;
+    height: 600;
+}
+.fundo-comprar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin: 0;
+}
+#titulo-comprar,#sub-comprar{
+    margin: 0;
+    color: #0794d3;
+}
+#sub-comprar{
+    font-weight: normal;
+    color: #02141c;
+}
+
+.seçao{
+    display: none;
+}
+.ativar-seçao{
+    display: flex;
+   
+}
+
+.formulario-produto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    width: 100%;
+    height: 900px;
+
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    padding: 10px;
+    transform: translateY(-200px);
+}
+#nome, #email, #telefone{
+    font-size: 20px;
+    border: 2px solid #00000069;
+    padding: 10px;
+    margin: 20px;
+    color: black;
+}
+#fechar-informaçao{
+    font-size: 22px;
+    transform: translateY(-300px) translateX(350px);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    transform: translateY(700px);
+    background-color: #02141c;
+    width: 100%;
+    height: 680px;
+    color: white;
+    font-size: 18px;
+}
+
+.fundo-texto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 110%;
+    transform: translateY(40px) 
+}
+.infor-final{
+
+    width: 30%;
+    height: 100px;
+    padding: 10px;
+    margin: 60px;
+    text-align: left;
+    
+}
+.mod-final{
+    transform: translateY(80px);
+    width: 60%;
+    height: 100px;
+    padding: 10px;
+    margin: 60px;
+    text-align: center;
+  
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    background-color:#0c212d;
+}
+.imagem-redes{
+    height: 50px;
+    width: 210px;
+}
+.logo-redes{
+    margin-top: 9px;
+    padding: 2px;
+    height: 40px;
+    width: 40px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(90px);
+    z-index: 0;
+    background-color: rgba(0, 16, 38, 0.579);
+    height: 700px;
+}
+.fundocart{
+    background-color: rgb(255, 255, 255);
+    height: 800px;
+    width:800px;
+}
+#texto-carro{
+    font-size: 32px;
+    text-align: center;
+}
+#cartDetails{
+    text-align: center;
+}
+#botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    font-size: 22px;
+    text-align: center;
+    transform: translateX(320px);
+    text-align: center;
+    border: 0;
+    background-color: #0794d3;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+#botao:hover{
+    background-color: #02141c;
+}
+button{
+    font-size: 17px;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid #00000069 ;
+}
+
+#mensagem,#total{
+   display: none;
+}

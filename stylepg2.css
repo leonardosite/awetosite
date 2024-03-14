@@ -1,0 +1,650 @@
+html,body,.footer{
+    width: 100%;
+    padding: 0;
+    margin:0; 
+    }
+
+/*DESATIVAR PARA DESKTOP*/
+ #nav-icone-menu,.fundo-clase,.fundo-menu,.fundo-lupa,#input-lupa,#listamob,#fechar-busca,.fundo-menu,.caminho-mobile,.fundo-carrinhomob,.clique-carromob,#carrinho-fecharmob{
+    display: none;
+}
+
+
+/*****************************************GERAL********************************************************
+**************************************************************************************************
+**************************************************************************************************/
+
+
+/*CONFIGURAÇÕES DO CORPO E GERAL*/
+body{
+    padding: 0;
+    margin:0; 
+    overflow-x: hidden;
+    width: 100%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    z-index:1 ;
+}
+main{
+    z-index: 0;
+    width: 100%;
+}
+
+
+/*****************************************CABEÇALHO********************************************************
+**************************************************************************************************
+**************************************************************************************************/
+
+
+/*CABEÇALHO*/
+header{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: #0c212d;
+    color: white;
+}
+/*logotipo*/
+#logo{
+    height: 65px;
+    width: 76px;
+}
+/*navegador*/
+nav{
+    display: flex;
+}
+/* configuração do texto do navegador*/
+#texto-nav{
+    margin-left:70px;
+    cursor: pointer;
+}
+#texto-nav:hover{
+    background-color: #02141c;
+    padding: 10px;
+}
+
+/*FRASE PENSADOR*/
+
+
+/*ATIVAÇÃO DAS NAVEGAÇÕES*/
+
+
+
+
+
+
+/*Lupa*/
+
+#listamob{
+    display: none;
+}
+.fundo{
+    display: flex;
+    justify-content:space-around;
+    align-items: normal;
+    position: relative;
+    height:45px;
+    width:350px;
+    overflow: hidden;
+    color:white;
+    transition: .2s;
+    background-color: #02141c;
+    padding: 5px;
+    transform: translateY(2px);
+}
+.fundo:hover{
+    background-color: #02141c;
+    border:1px solid rgba(255, 255, 255, 0.392);
+    color: white;
+}
+/*ativação da lupa*/
+.fundo.abrir{
+    display: flex;
+    justify-content:space-around;
+    align-items: normal;
+    height: 400px;
+    transform:translateY(180px) ;
+}
+/* Configuração da lista de pesquisa*/
+.lupa-pesquisa{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    background-color: #0c212d;
+    transform: translateY(20px) translateX(-30px);
+    border: 2px solid black;
+    width: 280px;
+}
+.dados-lupa{
+    margin: 7px;
+    padding:10px;
+    list-style:none;
+    transform: translateX(-20px);
+    border-bottom: 2px solid #00000069;
+    cursor: pointer;
+    color: white;
+
+}
+.dados-lupa:hover{
+    background-color: #ff9b00;
+    padding:10px;
+}
+.lupa {
+    font-size: 30px;
+    padding:10px;
+    cursor: pointer;
+    transform: translateX(5px) translateY(-8px);
+}
+#input-pesquisa{
+
+    transform: translateY(-10px) translateX(10px);
+    font-size: 22px;
+    color: white;
+}
+.fechar{
+    font-size: 30px;
+    transform: translateX(-70px) translateY(10px);
+    cursor: pointer;
+ 
+}
+.pesquisa , input{
+    background-color: transparent;
+    border:0;
+    outline: 0;
+    font-size: 17px;
+    color:white;
+
+}
+.pesquisa{
+    transform: translateY(20px);
+    height: 30px;
+}
+
+
+
+
+
+/*Carrinho de Compras*/
+
+.fundo-carrinho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 85px;
+    height: 55px;
+    padding: 15px;
+    overflow:hidden;
+    transition: .2s; 
+}
+#nav-carrinho{
+    height: 45px;
+    width: 40px;
+    color: white;
+    transition: .2s;
+    cursor: pointer;
+    padding: 2px;
+    transform: translateY(8px);
+}
+
+
+/* 
+
+            CATEGORIA
+
+*/
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    transform: translateY(90px);
+    width: 100%;
+    height: 5%;
+    background-color: #0c212d;
+    padding: 8px;
+}
+.categoria-geral{
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    width: 50%;
+    height:100%;
+    background-color: white;
+    border:2px solid   #02141c;
+    color: #0c212d;
+    font-weight: bold;
+    transition: .2s;
+}
+.categoria-geral{
+    border-radius: 20px;
+
+}
+.categoria-clique{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content:left;
+    align-items: center;
+    font-size: 22px;
+    padding: 20px;
+    border: 2px solid #0c212d;
+    background-color: white;
+    transition: .2s;
+    cursor: pointer;
+}
+.categoria-clique:hover{
+
+    background-color: #0c212d;
+    border: 2px solid white;
+    color: #fbb03b;
+}
+.bi-journal-plus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#0c212d;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 12px;
+}
+.bi-journal-plus:hover{
+    color:#fbb03b;
+    font-size: 25px;
+    font-weight: bold;    
+}
+.subcategorias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:#0792d35d;
+    transform: translateY(250px) translateX(360px);
+    width: 50%;
+    height: 120px;
+}
+#dadosub{
+    margin:9px;
+    
+}
+.seçao-menu{
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    position: fixed;
+    padding: 10px;
+    transform: translateY(150px) translateX(370px);
+    overflow-y: scroll;
+    height: 0px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border-bottom: 3px solid #02141c;
+    z-index: 1;
+}
+.ativar-seçaomenu{
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    padding: 10px;
+    transform: translateY(145px) translateX(363px);
+    overflow-y: scroll;
+    height: 245px;
+    width: 50%;
+    padding: 0;
+    background-color: white;
+    border: 3px solid #02141c;
+
+
+}
+.dados-menu{
+    display: flex;
+
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+
+    }
+.dados-menu:hover{
+    background-color: #0c212d;
+    color: #fbb03b;
+}
+.fundo-fechar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin:0px;
+    padding: 0;
+    height: 20px;
+    border-radius: 15px;
+    width: 90px;
+    height: 40px; 
+}
+#img-fechar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    color:#fbb03b;
+    width: 80%;
+    border-radius: 15px;
+    height: 30px;
+    transition: .2s;
+}
+#img-fechar:hover{
+    color:#fbb03b;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+
+
+.categoria-produto{
+    
+    font-size: 20px;
+    transform: translateY(250px);
+    padding: 10px;
+
+}
+.titulo-categoria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linha-categoria{
+
+    border:5px solid #0c212d;
+    border-radius: 30px;
+    width: 510px;
+}
+
+
+
+.fundo-produtos{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:40px;
+    transform: translateY(350px);
+    z-index: 2;
+}
+.bloco{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:240px;
+    height:445px;
+    border: 1px solid #00000059;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    border-radius:20px; 
+    padding:14px;
+    margin:25px;  
+    z-index: 3;
+}
+.img-fundo{
+    width: 200px;
+    height: 210px;
+    padding: 4px;
+    border:2px solid #00000069; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
+}
+#titulo-produto{
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    font-weight: normal;
+    padding: 8px;
+}
+#desconto-produto{
+    transform: translateY(-35px) translateX(-32px);
+    font-size: 16px;
+    width: 80px;
+}
+#preço-produto{
+    font-size: 25px;
+    font-weight: bold;
+    color:#0794d3;
+    transform: translateY(-40px);
+}
+#carrinho-produtos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-10px);
+font-size: 17px;
+color: white;
+}
+#botao-compra{
+    width:190px;
+    height:40px;
+    background-color: #0794d3;
+    font-size: 19px;
+    border:2px solid #0794d3;
+    border-right:none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transform: translateY(-40px);
+    padding: 10px;
+
+   
+}
+#botao-compra:hover{
+    background-color:#0c212d;
+}
+
+#botao-carrinho{
+    width:190px;
+    height:40px;
+    background-color: #0c212d;
+    border:2px solid #0c212d;
+    cursor: pointer;
+    transform: translateY(-40px) ;
+    margin-top: 5px;
+}
+#botao-carrinho:hover{
+    background-color: #02141c;
+    border:2px solid #0794d3; 
+}
+
+
+
+footer{
+  
+    transform: translateY(400px);
+    background-color: #02141c;
+    width: 100%;
+    height: 680px;
+    color: white;
+    font-size: 18px;
+}
+
+.fundo-texto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 110%;
+    transform: translateY(40px) 
+}
+.infor-final{
+
+    width: 30%;
+    height: 100px;
+    padding: 10px;
+    margin: 60px;
+    text-align: left;
+    
+}
+.mod-final{
+    transform: translateY(80px);
+    width: 60%;
+    height: 100px;
+    padding: 10px;
+    margin: 60px;
+    text-align: center;
+  
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    background-color:#0c212d;
+}
+.imagem-redes{
+    height: 50px;
+    width: 210px;
+}
+.logo-redes{
+    margin-top: 9px;
+    padding: 2px;
+    height: 40px;
+    width: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.fundo-ofertas{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transform: translateY(500px);
+    z-index: 2;
+    width: 100%;
+}
+.ativar-ofertas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    transform: translateY(610px);
+    z-index:2;
+    background-color: white;
+    width: 100%;
+}
+
+
+.fundo-religio{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transform: translateY(500px);
+    z-index: 2;
+    width: 100%;
+}
+.ativar-religio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    transform: translateY(600px);
+    z-index:2;
+    background-color: white;
+    width: 100%;
+ 
+}
+
+.fundo-romance{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transform: translateY(600px);
+    z-index: 2;
+    width: 100%;
+}
+.ativar-romance{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    transform: translateY(600px);
+    z-index:2;
+    background-color: white;
+    width: 100%;
+}
+
+
+
+
+/*DIDÁTICOS*/
+
+.fundo-didaticos{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transform: translateY(600px);
+    z-index: 2;
+    width: 100%;
+}
+.ativar-didatico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    transform: translateY(600px);
+    z-index:2;
+    background-color: white;
+    width: 100%;
+}
+
+
+.fundo-biografias{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transform: translateY(600px);
+    z-index: 2;
+    width: 100%;
+}
+.ativar-biografias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: absolute;
+    transform: translateY(600px);
+    z-index:2;
+    background-color: white;
+    width: 100%;
+}
